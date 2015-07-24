@@ -1,0 +1,325 @@
+@font-face {
+  font-family: 'Myriad Set Pro';
+  font-weight: 500;
+  font-style: normal;
+  src: url("https://s3-us-west-1.amazonaws.com/yasmirtudoachimandirochichi/fonts/myriad-set-pro_semibold.woff");
+}
+
+@font-face {
+  font-family: 'Myriad Set Pro';
+  font-weight: 300;
+  font-style: normal;
+  src: url("https://s3-us-west-1.amazonaws.com/yasmirtudoachimandirochichi/fonts/myriad-set-pro_text.woff");
+}
+
+@font-face {
+  font-family: 'Myriad Set Pro';
+  font-weight: 200;
+  font-style: normal;
+  src: url("https://s3-us-west-1.amazonaws.com/yasmirtudoachimandirochichi/fonts/myriad-set-pro_thin.woff");
+}
+
+@font-face {
+  font-family: 'Myriad Set Pro';
+  font-weight: 100;
+  font-style: normal;
+  src: url("https://s3-us-west-1.amazonaws.com/yasmirtudoachimandirochichi/fonts/myriad-set-pro_ultralight.woff");
+}
+
+body {
+  font-family: 'Myriad Set Pro';
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+
+.segmentone {
+  background-color: #272729;
+  height: 50vh;
+  position: relative;
+}
+
+.segmentone .separate {
+  margin: 10px auto;
+  width: 100px;
+  height: 4px;
+  background-color: #fdfcfc;
+  opacity: 0.05;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.segmentone h1 {
+  color: #22c1ee;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 5em;
+  letter-spacing: .05em;
+  margin: 20px;
+  text-align: center;
+}
+
+.segmentone h2 {
+  color: #fdfcfc;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 4em;
+  margin: 20px;
+  letter-spacing: .05em;
+}
+
+.segmentone h4 {
+  color: #22c1ee;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+
+.segmentone .content {
+  margin: auto auto;
+  vertical-align: middle;
+  line-height: 100%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  width: 50%;
+  position: relative;
+}
+
+.segmenttwo {
+  background-color: #22c1ee;
+  height: 50vh;
+  position: relative;
+}
+
+.segmenttwo .box {
+  width: 25%;
+  height: 35%;
+  border-radius: 4px;
+  border: 3px solid #fdfcfc;
+  margin: auto auto;
+  left: 37.5%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.segmenttwo .box .text {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  top: 40%;
+}
+
+.segmentthree {
+  background-color: #fdfcfc;
+  height: 50vh;
+  position: relative;
+}
+
+.segmentthree .triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 250px 0 0 250px;
+  border-color: transparent transparent transparent #22c1ee;
+  position: relative;
+  top: 50%;
+  left: 558px;
+  transform: translateY(-50%);
+}
+
+.segmentthree .text {
+  text-transform: uppercase;
+  color: #272729;
+  bottom: 20%;
+  text-align: center;
+  font-size: 2.5em;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.segmentfour {
+  background-color: #272729;
+  height: 50vh;
+  position: relative;
+}
+
+.segmentfour .logo {
+  width: 120px;
+  height: 100px;
+  background-size: cover;
+  background-image: url('https://dff2h0hbfv6w4.cloudfront.net/images/bookme/stanza_logo_icon.svg');
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+  transition-property: transform;
+  transition-duration: 1s;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.segmentfour .text {
+  text-transform: uppercase;
+  color: #fdfcfc;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5em;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.segmentfive {
+  height: 50vh;
+  background-color: #22c1ee;
+  position: relative;
+}
+
+.segmentfive .circle {
+  position: absolute;
+  background-color: #fdfcfc;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: all .4s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.segmentfive .circle:hover {
+  width: 150px;
+  height: 150px;
+}
+
+.segmentfive .text {
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 2.5em;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.segmentsix {
+  background-color: #fdfcfc;
+  height: 70vh;
+  position: relative;
+}
+
+.segmentsix h2 {
+  font-size: 4.5em;
+  color: #272729;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.segmentsix h4 {
+  font-size: 1.5em;
+  color: #22c1ee;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.segmentsix .grid {
+  display: flex;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.segmentsix .grid .tile {
+  width: 200px;
+  height: 200px;
+  margin: 30px 75px;
+  border: 3px solid #22c1ee;
+}
+
+.segmentsix .grid .tile-black {
+  width: 200px;
+  height: 200px;
+  margin: 30px 75px;
+  border: 3px solid #272729;
+}
+
+.segmentseven {
+
+}
+
+.segmenteight {
+
+}
+
+.segmentnine {
+
+}
